@@ -36,4 +36,16 @@
 	display: inline-block;
 }
 
+.side{
+	height: 100%;
+	width: 100%;
 
+}
+
+
+#roll {
+    height: 50px;
+    width: 91%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
