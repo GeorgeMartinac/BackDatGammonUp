@@ -9,14 +9,20 @@
 </head>
 <body>
 	<!-- <div id='board'></div> -->
-	<img src="img/board.png" id='board'>
-	<div id="controlPanel">
-		<div id='die1'></div>
-		<div id='die2'></div>
-		<button id='roll' type="button">Roll</button>
-		<div id='player_info'></div>
-
-		
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span2" style="height: 90%;">
+				<div id="controlPanel">
+					<div class='dice' id='die1'><img clase='side' src='img/one.gif'/></div>
+					<div class='dice' id='die2'><img class='side' src='img/one.gif'/></div>
+					<button id='roll' type="button" style="width: 100%">Roll</button>
+					<div id='player_info'></div>
+				</div>			
+			</div>
+			<div class="span10">
+				<img src="img/board.png" class="img-responsive" id="board">
+			</div>
+		</div>
 	</div>
 	<script src="js/jquery-3.0.0.min.js"></script>
 	<script src="js/index.js"></script>	

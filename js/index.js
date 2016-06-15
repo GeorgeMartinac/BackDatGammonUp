@@ -25,7 +25,7 @@ function getSideImgUrl(side){
 			diceImg = 'img/five.png';
 			break;
 		case 6:
-			diceImg = 'img/six.jpg';
+			diceImg = 'img/six.png';
 			break				
 	}
 
