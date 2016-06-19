@@ -1,6 +1,41 @@
 .dice{
 	border: 5px solid black;
 }
+
+#welcomeBox{
+    margin-top: 25%;
+
+}
+
+#gamemode{
+    margin-left: 10%;
+    color:#F44336;
+}
+
+h1{
+    color: #D32F2F;
+}
+
+#textBox{
+    padding-top: 50px;
+    margin: auto;
+    width: 300px;
+}
+
+#welcome-buttons{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin: 10px;
+}
+#submissions{
+    margin: auto;
+
+}
+.btn-danger{
+    margin: 20px;
+}
+
+
 /*
 #board {
     height: 80%;
